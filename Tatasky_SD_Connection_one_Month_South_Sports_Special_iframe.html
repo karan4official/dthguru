@@ -1,0 +1,1404 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2.0, minimum-scale=1, user-scalable=yes">
+    <title>Tata Sky</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/lightbox.css" rel="stylesheet" />
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js">
+    </script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js">
+    </script>
+        <![endif]-->
+    <style>
+        ol {
+            float: left;
+            margin-left: -24px;
+        }
+
+        .floatright {
+            float: right;
+        }
+
+        .logo img {
+            max-height: 200px;
+            max-width: 235px;
+            width: 100%;
+        }
+
+        .logo {
+            padding: 2%;
+        }
+
+        .services .img1 {
+            max-width: 100%;
+            height: 175px;
+        }
+
+        .btn-cust, .cstm-btn {
+            background: #e34c1c;
+            border: 1px solid #d74314;
+        }
+
+        .rd-mr {
+            border: 1px solid #d74314;
+            width: 50%;
+            float: right;
+            margin-top: 4px;
+        }
+
+            .rd-mr:hover {
+                border: 1px solid #d74314;
+                background: #d74314;
+            }
+
+        .cstm-btn:hover {
+            background: #aa102d;
+            box-shadow: 1px 1px 1px #d23e0f;
+            border-color: #d23e0f;
+        }
+
+        .modal-header, .btn-warning {
+            background: #e34c1c;
+        }
+
+            .btn-warning:hover {
+                background: #ab112d;
+                border: 1px solid #ab112d;
+            }
+
+            .btn-warning.focus, .btn-warning:focus {
+                background: #dd4312;
+                border: 1px solid #dd4312;
+            }
+
+        .navbar-default .navbar-nav > li > a {
+            color: #dd4312;
+        }
+
+        .dropdown-menu > li > a:hover {
+            background: #dd4312;
+        }
+
+        .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
+            background: #dd4312;
+        }
+
+        .services h2 a:hover {
+            color: #e34c1c;
+        }
+
+        a {
+            color: #dd4312;
+        }
+        @media only screen and (max-width: 767px) {
+
+            .enq-form {
+                border: 2px solid #dd4312;
+                box-shadow: 0 0 5px #dd4312;
+            }
+        }
+        /*Reset CSS*/
+        html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            outline: none;
+            vertical-align: baseline;
+        }
+        /* HTML5 display-role reset for older browsers */
+        article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+            display: block;
+        }
+
+        body {
+            font-family: "robotolight", Tahoma, Arial;
+            font-size: 0.750em;
+        }
+
+        input {
+            font-family: "robotolight", Tahoma, Arial;
+        }
+
+        ol, ul {
+            list-style: none;
+        }
+        /*Global Table Css*/
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+            table tr {
+            }
+
+                table tr td {
+                    background: none repeat scroll 0 0 #ecebeb;
+                    border-bottom: 1px solid #fff;
+                    border-right: 1px solid #fff;
+                    color: #333;
+                    padding: 5px;
+                }
+
+                    table tr td.tablebox-hd {
+                        background: none repeat scroll 0 0 #999999;
+                        color: #fff;
+                    }
+
+        div, p, a, li, td {
+            -webkit-text-size-adjust: none;
+        }
+        /*Global Table Css*/
+        /*Reset CSS*/
+        /*Common CSS*/
+        strong {
+            font-family: "robotobold", Tahoma, Arial;
+            font-weight: normal;
+        }
+
+        p {
+            color: #666666;
+            float: left;
+            font-size: 1.5em;
+            line-height: 1.6;
+            width: 100%;
+        }
+
+        h2 {
+            color: #009CFF;
+            float: left;
+            font-size: 3.5em;
+            font-weight: normal;
+            line-height: 1.2;
+            width: 100%;
+        }
+
+        h3 {
+            float: left;
+            font-size: 2.4em;
+            font-weight: normal;
+            line-height: 1.2;
+            margin: 0 0 30px;
+            width: 100%;
+        }
+
+        h4 {
+            float: left;
+            font-size: 2em;
+            font-weight: normal;
+            line-height: 1.2;
+            margin: 10px 0 30px;
+            width: 100%;
+            color: #333;
+            font-weight: normal;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .FL {
+            float: left;
+        }
+
+        .FR {
+            float: right;
+        }
+
+        .pos-rel {
+            position: relative;
+        }
+
+        .CL {
+            clear: both;
+        }
+
+        .red {
+            background: #ff7777; /* Old browsers */
+            background: -moz-linear-gradient(top, #ff7777 0%, #ff7777 50%, #ff2c2c 50%, #ff2c2c 100%); /* FF3.6+ */
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ff7777), color-stop(50%, #ff7777), color-stop(50%, #ff2c2c), color-stop(100%, #ff2c2c)); /* Chrome,Safari4+ */
+            background: -webkit-linear-gradient(top, #ff7777 0%, #ff7777 50%, #ff2c2c 50%, #ff2c2c 100%); /* Chrome10+,Safari5.1+ */
+            background: -o-linear-gradient(top, #ff7777 0%, #ff7777 50%, #ff2c2c 50%, #ff2c2c 100%); /* Opera 11.10+ */
+            background: -ms-linear-gradient(top, #ff7777 0%, #ff7777 50%, #ff2c2c 50%, #ff2c2c 100%); /* IE10+ */
+            background: linear-gradient(to bottom, #ff7777 0%, #ff7777 50%, #ff2c2c 50%, #ff2c2c 100%); /* W3C */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff7777', endColorstr='#ff2c2c', GradientType=0 ); /* IE6-9 */
+            border: 1px solid #ff7777;
+        }
+
+        .btn {
+            font-family: "robotobold", Tahoma, Arial;
+            float: left !important;
+            line-height: 1 !important;
+            margin: 0 !important;
+            padding: 7px 10px !important;
+            text-shadow: 0 0 2px #000;
+            width: auto !important;
+        }
+
+            .btn a {
+                background: url(../images/btn-arrow-big.png) no-repeat scroll 100% center;
+                color: #FFFFFF;
+                float: left;
+                padding: 0 20px 0 0;
+                text-transform: uppercase;
+            }
+        /*Common CSS*/
+        .table-container {
+            float: left;
+            width: 100%;
+            overflow-y: auto;
+            _overflow: auto;
+            margin: 0 0 1em;
+        }
+
+        .redtxt {
+            color: #f33 !important;
+        }
+        /*channel lightbox*/
+        .light-wrapper {
+              width: 100%;
+        }
+
+            .light-wrapper .pack-head-desc {
+                float: left;
+                text-align: center;
+                width: 100%;
+            }
+
+                .light-wrapper .pack-head-desc h5 {
+                    color: #009cff;
+                    float: left;
+                    font-size: 2.5em;
+                    margin: 0 0 10px;
+                    width: 100%;
+                    font-weight: 100;
+                    font-family: "robotoregular";
+                }
+
+                .light-wrapper .pack-head-desc p {
+                }
+
+                .light-wrapper .pack-head-desc sub {
+                    vertical-align: top;
+                }
+
+                .light-wrapper .pack-head-desc p .rupee {
+                    color: #666;
+                    font-family: 'rupee_foradianregular';
+                }
+
+                .light-wrapper .pack-head-desc .redtxt {
+                }
+
+            .light-wrapper .pack-channel-list {
+                float: left;
+                margin: 30px 0 0;
+                width: 100%;
+            }
+
+                .light-wrapper .pack-channel-list h6 {
+                    background: #999;
+                    color: #fff;
+                    float: left;
+                    font-size: 1.6em;
+                    line-height: 1;
+                    margin: 0 0 20px;
+                    padding: 1%;
+                    text-transform: uppercase;
+                    width: 98%;
+                }
+
+                .light-wrapper .pack-channel-list p.channel {
+                    text-align: center;
+                    width: 100px;
+                    line-height: 1.4;
+                    min-height: 125px;
+                }
+
+                    .light-wrapper .pack-channel-list p.channel img { /*border: 1px solid #8F8F8F; -webkit-box-shadow: 0 5px 5px 0 #8F8F8F; box-shadow: 0 5px 5px 0 #8F8F8F;*/
+                    }
+
+                    .light-wrapper .pack-channel-list p.channel span.channel-name {
+                        display: block;
+                        margin: 10px 0 0;
+                    }
+        /*channel lightbox*/
+        /*catchup tv*/
+        #catchuplist {
+            float: left;
+            width: 100%;
+        }
+
+        .tablebox-hd {
+            border: 1px solid #d2d2d2;
+            background-color: #DFDFDF;
+            vertical-align: top;
+            text-align: left;
+            padding: 6px;
+            color: #000000;
+            font-weight: bold;
+            font-size: 1.3em;
+            text-transform: uppercase;
+        }
+
+        .tablebox {
+            border: 1px solid #e2e2e2;
+            background-color: #FFFFFF;
+            vertical-align: top;
+            text-align: left;
+            padding: 6px;
+            font-size: 1.1em;
+            text-transform: uppercase;
+        }
+
+        .tablebox1 {
+            border: 1px solid #e2e2e2;
+            background-color: #F8F8F8;
+            vertical-align: top;
+            text-align: left;
+            padding: 6px;
+        }
+
+        .tablebox-hd-emi {
+            border: 1px solid #d2d2d2;
+            background-color: #DFDFDF;
+            vertical-align: top;
+            text-align: center;
+            padding: 6px;
+            color: #000000;
+            font-weight: bold;
+        }
+
+        .tablebox-emi {
+            border: 1px solid #e2e2e2;
+            background-color: #FFFFFF;
+            vertical-align: top;
+            text-align: center;
+            padding: 6px;
+        }
+
+        .tablebox1-emi {
+            border: 1px solid #e2e2e2;
+            background-color: #F8F8F8;
+            vertical-align: top;
+            text-align: center;
+            padding: 6px;
+        }
+
+        .tablebox-del {
+            border-left: 1px solid #e2e2e2;
+            border-top: 1px solid #e2e2e2;
+            background-color: #FFFFFF;
+            vertical-align: top;
+            text-align: left;
+            padding: 6px;
+        }
+
+        .tablebox-delr {
+            border-left: 1px solid #e2e2e2;
+            border-top: 1px solid #e2e2e2;
+            border-right: 1px solid #e2e2e2;
+            background-color: #FFFFFF;
+            vertical-align: top;
+            text-align: left;
+            padding: 6px;
+        }
+
+        .tablebox-delb {
+            border-left: 1px solid #e2e2e2;
+            border-top: 1px solid #e2e2e2;
+            border-bottom: 1px solid #e2e2e2;
+            background-color: #FFFFFF;
+            vertical-align: top;
+            text-align: left;
+            padding: 6px;
+        }
+
+        .tablebox-delrb {
+            border-left: 1px solid #e2e2e2;
+            border-top: 1px solid #e2e2e2;
+            border-right: 1px solid #e2e2e2;
+            border-bottom: 1px solid #e2e2e2;
+            background-color: #FFFFFF;
+            vertical-align: top;
+            text-align: left;
+            padding: 6px;
+        }
+        /*catchup tv*/
+        /*home brochure*/
+        .wpthemeMainContent {
+            min-height: 100px;
+        }
+
+        .light-wrapper-brochure {
+            background: none repeat scroll 0 0 #fff;
+            color: #666;
+            float: left;
+            font-size: 0.75em;
+            margin: 0 calc((100% - 480px) / 2);
+            padding: 30px;
+            width: 420px;
+        }
+
+        .light-wrapper .brochure {
+            float: left;
+            text-align: center;
+            width: 100%;
+        }
+
+            .light-wrapper .brochure h5 {
+                color: #009cff;
+                float: left;
+                font-size: 2.5em;
+                margin: 0 0 10px;
+                width: 100%;
+                font-weight: 100;
+            }
+
+            .light-wrapper .brochure p {
+                float: left;
+            }
+
+            .light-wrapper .brochure input[type="text"] {
+                background: none repeat scroll 0 0 #CCCCCC;
+                border: medium none;
+                color: #000000;
+                font-size: 1.1em;
+                margin: 0 15px 0 0;
+                padding: 6px 10px;
+            }
+
+            .light-wrapper .brochure .serxtxt {
+                margin: 0 auto;
+                width: 350px;
+            }
+
+                .light-wrapper .brochure .serxtxt .serxtxt1 {
+                    width: 240px;
+                }
+        /*karoake popup */
+        .popup {
+            background-color: #fff;
+            border-radius: 5px;
+            height: 430px;
+            margin: 0 auto;
+            overflow: hidden;
+            padding: 40px;
+            width: 500px;
+        }
+
+            .popup h2 {
+                font-size: 1.8em;
+                color: #e94e73;
+                line-height: 30px;
+                margin: 0 0 20px 0;
+            }
+
+            .popup .radiobtn {
+                width: 30px;
+            }
+
+        .fl {
+            float: left;
+        }
+
+        .fr {
+            float: right;
+        }
+
+        .popup .rediobox {
+            width: 26.5%;
+            text-align: center;
+            font-size: 1.3em;
+            line-height: 20px;
+            padding: 15px;
+            border-right: 2px solid #fff;
+            background-color: #eee;
+            height: 130px;
+        }
+
+        .popup .thank {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .popup .popbox {
+            width: 450px;
+            padding: 0 21px;
+            margin: 0 auto;
+        }
+
+            .popup .popbox ul {
+                width: 450px;
+                margin: 0;
+                padding: 0;
+                float: left;
+            }
+
+            .popup .popbox li {
+                float: left;
+                display: inline-block;
+                margin: 10px 0;
+                font-size: 1.5em;
+            }
+
+                .popup .popbox li input {
+                    font-size: 1em;
+                }
+
+        .popup .pop-field1 {
+            width: 190px;
+            height: 20px;
+            background: #ccc;
+            border: 0;
+            padding: 5px 10px;
+        }
+
+        .popup .popbox .pop-ftext {
+            width: 150px;
+            text-align: right;
+            padding: 5px 15px 5px 0;
+        }
+
+        .popup .popbox .pop-butbox {
+            width: 250px;
+            text-align: left;
+            padding: 5px 15px 5px 0;
+        }
+
+            .popup .popbox .pop-butbox input {
+                color: #FFF;
+                font-size: 1em;
+            }
+
+        @media only screen and (min-width: 701px) and (max-width: 990px) {
+        }
+
+        @media only screen and (max-width: 700px) {
+            .light-wrapper-brochure {
+                width: 100%;
+                margin: 0;
+                padding: 10px;
+            }
+
+            .light-wrapper .brochure h5 {
+                font-size: 2em;
+                line-height: 1em;
+            }
+
+            .light-wrapper .brochure .serxtxt {
+                width: auto;
+            }
+
+                .light-wrapper .brochure .serxtxt .serxtxt1 {
+                    width: auto;
+                }
+
+            .light-wrapper .brochure #differ p {
+                width: 92%;
+            }
+
+            .light-wrapper .brochure .serxtxt .btn {
+                margin-top: 10px !important;
+            }
+
+            .light-wrapper .pack-channel-list p.channel {
+                margin: 0 6px 15px 0;
+            }
+            /*karoake popup */
+            .popup {
+                background-color: #fff;
+                border-radius: 5px;
+                height: auto;
+                margin: 0 auto;
+                overflow: hidden;
+                padding: 2%;
+                width: 96%;
+            }
+
+                .popup .rediobox {
+                    border: medium none;
+                    height: auto;
+                    margin: 0 0 2px;
+                    padding: 2%;
+                    text-align: left;
+                    width: 96%;
+                }
+
+                    .popup .rediobox br {
+                        display: none;
+                    }
+
+                    .popup .rediobox center {
+                        float: left;
+                        width: 25px;
+                    }
+
+                        .popup .rediobox center input {
+                            float: left;
+                        }
+
+                .popup .popbox {
+                    margin: 0 auto;
+                    padding: 0;
+                    width: 100%;
+                }
+
+                    .popup .popbox br {
+                        display: none;
+                    }
+
+                    .popup .popbox ul {
+                        width: 100%;
+                    }
+
+                    .popup .popbox li {
+                        margin: 0;
+                        width: 100%;
+                    }
+
+                    .popup .popbox .pop-ftext {
+                        padding: 5px 15px 5px 0;
+                        text-align: right;
+                        width: auto;
+                    }
+
+                .popup .pop-field1 {
+                    background: none repeat scroll 0 0 #ccc;
+                    border: 0 none;
+                    height: 20px;
+                    padding: 5px 2%;
+                    width: 96%;
+                }
+
+                .popup .popbox .pop-butbox {
+                }
+        }
+
+        .nivo-lightbox-content {
+            -webkit-overflow-scrolling: touch;
+            overflow: auto;
+        }
+
+        .light-wrapper {
+            -webkit-overflow-scrolling: touch;
+        }
+        body {
+        background-color:white;
+        
+        }
+    </style>
+</head>
+<body>
+    <div class="light-wrapper">
+        <div class="pack-channel-list">
+    <h6>
+Hindi Entertainment
+</h6>
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/colors.gif" alt="" border="" title=""><span class="channel-name">Colors</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/sony.gif" alt="" border="" title=""><span class="channel-name">Sony</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/zee-tv.gif" alt="" border="" title=""><span class="channel-name">Zee TV +1</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/sony.gif" alt="" border="" title=""><span class="channel-name">Sony +1</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/star-plus.gif" alt="" border="" title=""><span class="channel-name">STAR Plus</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/zee-tv.gif" alt="" border="" title=""><span class="channel-name">Zee TV</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/v.gif" alt="" border="" title=""><span class="channel-name">Channel V</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/zee-anmol.gif" alt="" border="" title=""><span class="channel-name">Zee Anmol</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/rishtey.gif" alt="" border="" title=""><span class="channel-name">Rishtey</span></span></p>
+
+<h6>
+Hindi News
+</h6>
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/National-Voice.gif" alt="" border="" title=""><span class="channel-name">National Voice UP/UK</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/LTV.gif" alt="" border="" title=""><span class="channel-name">LTV</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/Sadhna-Prime-News.gif" alt="" border="" title=""><span class="channel-name">Sadhna Prime News</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/MH-One-News.gif" alt="" border="" title=""><span class="channel-name">MH One News</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/8ffc937b-6a98-4943-9a13-1bffa04ea368/etv-hariyana.gif8ffc937b-6a98-4943-9a13-1bffa04ea368" alt="" border="" title=""><span class="channel-name">ETV News Haryana Himachal Pradesh</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/bceb4503-5e77-4b1f-a877-3b640c38eb22/Samachar-News.gifbceb4503-5e77-4b1f-a877-3b640c38eb22" alt="" border="" title=""><span class="channel-name">Samachar Plus</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/13266939-b473-4e22-a88d-a5f52d6ba463/Kashish-News.gif13266939-b473-4e22-a88d-a5f52d6ba463" alt="" border="" title=""><span class="channel-name">Kashish News</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/996158b7-9f1e-4851-947b-f6bed185102e/APN-LOGO.gif996158b7-9f1e-4851-947b-f6bed185102e" alt="" border="" title=""><span class="channel-name">APN</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/6ae075d4-70f5-49d2-877e-ea87fe90910e/Sadhana_Plus.gif6ae075d4-70f5-49d2-877e-ea87fe90910e" alt="" border="" title=""><span class="channel-name">Sadhna Plus</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/72a43375-9d73-40b6-bf5b-f8cab0e95792/News-World-India.gif72a43375-9d73-40b6-bf5b-f8cab0e95792" alt="" border="" title=""><span class="channel-name">News World India</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/476b9c10-d75f-4790-9c95-03bf0c98b126/IndiaNewsHariyana.gif476b9c10-d75f-4790-9c95-03bf0c98b126" alt="" border="" title=""><span class="channel-name">India News Haryana</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/a6dcd450-c41a-4597-9455-2569ba606f2a/news-nation.gifa6dcd450-c41a-4597-9455-2569ba606f2a" alt="" border="" title=""><span class="channel-name">News Nation</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/43694d07-c212-467a-a13a-30daff45d03d/zee-news.gif43694d07-c212-467a-a13a-30daff45d03d" alt="" border="" title=""><span class="channel-name">Zee News</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/92e8bb91-a0bb-410c-80f2-da8464f6a198/zee-business.gif92e8bb91-a0bb-410c-80f2-da8464f6a198" alt="" border="" title=""><span class="channel-name">Zee Business</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/e89566c8-8c5e-4739-9a09-e04742672e28/news-live.gife89566c8-8c5e-4739-9a09-e04742672e28" alt="" border="" title=""><span class="channel-name">News Live</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/8ea9d18e-657a-4d08-964f-a4ece135a518/new-24.gif8ea9d18e-657a-4d08-964f-a4ece135a518" alt="" border="" title=""><span class="channel-name">News 24</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/6730741a-f79f-4793-b81b-c0c4ff6d9be8/abp-news.gif6730741a-f79f-4793-b81b-c0c4ff6d9be8" alt="" border="" title=""><span class="channel-name">ABP News</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/a987bab7-59f9-42f3-a711-d59f07637dec/ndtv-india.gifa987bab7-59f9-42f3-a711-d59f07637dec" alt="" border="" title=""><span class="channel-name">NDTV India</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/6262b522-0449-489b-864e-8ef5376b71ff/indiatv-new.gif6262b522-0449-489b-864e-8ef5376b71ff" alt="" border="" title=""><span class="channel-name">India TV</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/f44ae52e-fb47-46d8-92b4-421230fcb394/india-news.giff44ae52e-fb47-46d8-92b4-421230fcb394" alt="" border="" title=""><span class="channel-name">India News</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/388e4525-a087-425e-9e75-a5322bd92385/ibn7.gif388e4525-a087-425e-9e75-a5322bd92385" alt="" border="" title=""><span class="channel-name">IBN7</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/018cfcfb-8677-41b9-80f8-ae84e7872eee/cnbc-aavaj.gif018cfcfb-8677-41b9-80f8-ae84e7872eee" alt="" border="" title=""><span class="channel-name">CNBC Awaaz</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/b2a7a8d4-2bb3-492a-b6a0-634c9c3c6f45/aajtak.gifb2a7a8d4-2bb3-492a-b6a0-634c9c3c6f45" alt="" border="" title=""><span class="channel-name">Aaj Tak</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/bcc195f7-5169-488c-837a-d8d5dfaa0a0a/Sudarshan-News.gifbcc195f7-5169-488c-837a-d8d5dfaa0a0a" alt="" border="" title=""><span class="channel-name">Sudarshan News</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/1e02d941-0893-435f-acec-af121afe50b2/india24x7.gif1e02d941-0893-435f-acec-af121afe50b2" alt="" border="" title=""><span class="channel-name">India 24x7</span></span></p>
+
+<h6>
+Sports
+</h6>
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/f037a65b-ac42-4795-8ae3-3a0222b72d09/ten-1.giff037a65b-ac42-4795-8ae3-3a0222b72d09" alt="" border="" title=""><span class="channel-name">Ten 1</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/6d4d7698-07bd-4072-a178-7cb2ee08e74d/star-sports1.gif6d4d7698-07bd-4072-a178-7cb2ee08e74d" alt="" border="" title=""><span class="channel-name">STAR Sports 1</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/86ad8df9-1b5f-44df-a0c0-d3e28090d20e/star-sports2.gif86ad8df9-1b5f-44df-a0c0-d3e28090d20e" alt="" border="" title=""><span class="channel-name">Star Sports 2</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/43087a47-cf16-4e41-ace7-198409be4265/star-sports4.gif43087a47-cf16-4e41-ace7-198409be4265" alt="" border="" title=""><span class="channel-name">STAR Sports 4</span></span></p>
+
+<h6>
+Music
+</h6>
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/f77784ab-079e-4576-b6e1-238830adcc78/sony-mix.giff77784ab-079e-4576-b6e1-238830adcc78" alt="" border="" title=""><span class="channel-name">Sony MIX</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/2a3cf2ff-d3f3-45d9-bb67-72218efc31f9/e-24.gif2a3cf2ff-d3f3-45d9-bb67-72218efc31f9" alt="" border="" title=""><span class="channel-name">E24</span></span></p>
+
+<h6>
+Kids
+</h6>
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/accae1d7-c1dc-4a5a-9396-2abb5b52ea2d/cartoon-network.gifaccae1d7-c1dc-4a5a-9396-2abb5b52ea2d" alt="" border="" title=""><span class="channel-name">Cartoon Network</span></span></p>
+
+<h6>
+Knowledge
+</h6>
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/eb8933d5-a5e4-4966-964b-1f49e4a8661c/travelxp.gifeb8933d5-a5e4-4966-964b-1f49e4a8661c" alt="" border="" title=""><span class="channel-name">Travel XP</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/7eefaf41-b343-4e6a-a0d7-cb473a265611/NGC-People.gif7eefaf41-b343-4e6a-a0d7-cb473a265611" alt="" border="" title=""><span class="channel-name">Nat Geo People</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/093cda48-8a89-4429-90af-813254402e01/food-food.gif093cda48-8a89-4429-90af-813254402e01" alt="" border="" title=""><span class="channel-name">Food Food</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/28f13445-7d8c-425f-a1cf-7c6ac1826dec/Living-foodz.gif28f13445-7d8c-425f-a1cf-7c6ac1826dec" alt="" border="" title=""><span class="channel-name">Living Foodz</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/897fdec2-7190-4c61-b4ee-102fa69ae104/net-geo-wild.gif897fdec2-7190-4c61-b4ee-102fa69ae104" alt="" border="" title=""><span class="channel-name">Nat Geo Wild</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/710a9531-f3bf-45a1-b051-5097cd608b70/natgeo.gif710a9531-f3bf-45a1-b051-5097cd608b70" alt="" border="" title=""><span class="channel-name">National Geographic</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/de01e294-e730-4ad1-ad92-cfc59eeec7d9/fyiTV18.gifde01e294-e730-4ad1-ad92-cfc59eeec7d9" alt="" border="" title=""><span class="channel-name">FYI TV18</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/bb4dca62-bfa4-4170-bc02-e3bba6a947f9/history-tv18.gifbb4dca62-bfa4-4170-bc02-e3bba6a947f9" alt="" border="" title=""><span class="channel-name">History TV 18</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/04d26374-7f4c-4e36-83b8-6a38ffb2eec9/fox-life.gif04d26374-7f4c-4e36-83b8-6a38ffb2eec9" alt="" border="" title=""><span class="channel-name">Fox Life</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/5b735efb-907f-47b0-a9b4-6e9a7aa5d3fb/discovery-science.gif5b735efb-907f-47b0-a9b4-6e9a7aa5d3fb" alt="" border="" title=""><span class="channel-name">Discovery Science</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/34334def-1b47-4cc8-84d2-c55de155a20f/discovery.gif34334def-1b47-4cc8-84d2-c55de155a20f" alt="" border="" title=""><span class="channel-name">Discovery</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/ef10ac9b-5aea-4d1d-afef-8b2fe8cb4e9c/tlc.gifef10ac9b-5aea-4d1d-afef-8b2fe8cb4e9c" alt="" border="" title=""><span class="channel-name">TLC</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/2ca755b6-2fa0-43ad-9533-baaabc18e03e/NDTV-goodTimes.gif2ca755b6-2fa0-43ad-9533-baaabc18e03e" alt="" border="" title=""><span class="channel-name">NDTV Good Times</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/7074a794-f5ec-42d9-bc90-77a85f4a5186/D_turbo.gif7074a794-f5ec-42d9-bc90-77a85f4a5186" alt="" border="" title=""><span class="channel-name">Discovery Turbo</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/b4e8b507-446c-418c-b69d-974f1a954f65/animal-planet.gifb4e8b507-446c-418c-b69d-974f1a954f65" alt="" border="" title=""><span class="channel-name">Animal Planet</span></span></p>
+
+<h6>
+English News
+</h6>
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/f18cf6d9-3945-4ec6-9297-2b562cf3919f/wion.giff18cf6d9-3945-4ec6-9297-2b562cf3919f" alt="" border="" title=""><span class="channel-name">WION</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/7599cd9c-a9c7-48fe-8dde-2e0f236c0014/News9.gif7599cd9c-a9c7-48fe-8dde-2e0f236c0014" alt="" border="" title=""><span class="channel-name">News 9</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/6342d56a-b1e9-4f7f-bcf0-c6ba069a4ab9/Magic-Bricks-Now.gif6342d56a-b1e9-4f7f-bcf0-c6ba069a4ab9" alt="" border="" title=""><span class="channel-name">Magic Bricks Now</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/92f0503a-c13b-4f06-bd1a-05f21cc634b6/Channel-News-Asia.gif92f0503a-c13b-4f06-bd1a-05f21cc634b6" alt="" border="" title=""><span class="channel-name">Channel News Asia</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/73c62945-7d7a-4816-9a21-1ca8560b90dc/cnbc.gif73c62945-7d7a-4816-9a21-1ca8560b90dc" alt="" border="" title=""><span class="channel-name">CNBC-TV18</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/5f0e1696-9745-4f62-b8b6-e12a3f6478db/timesnow.gif5f0e1696-9745-4f62-b8b6-e12a3f6478db" alt="" border="" title=""><span class="channel-name">Times Now</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/00003d7a-bb43-429f-9ee2-ecefba919f1d/newsx.gif00003d7a-bb43-429f-9ee2-ecefba919f1d" alt="" border="" title=""><span class="channel-name">NewsX</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/46ba72b3-a45e-4be6-adb3-28106098c4fa/ndtv-profit.gif46ba72b3-a45e-4be6-adb3-28106098c4fa" alt="" border="" title=""><span class="channel-name">NDTV Profit-Prime</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/460a0459-fa36-4fa3-8e7b-70c143bd60e2/ndtv-24x7.gif460a0459-fa36-4fa3-8e7b-70c143bd60e2" alt="" border="" title=""><span class="channel-name">NDTV 24x7</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/0bddda8f-aac4-4d6b-b51a-a55ad295ad81/india-today.gif0bddda8f-aac4-4d6b-b51a-a55ad295ad81" alt="" border="" title=""><span class="channel-name">India Today</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/e33318bb-95a7-4cdb-a66a-e8f878fef943/et-now.gife33318bb-95a7-4cdb-a66a-e8f878fef943" alt="" border="" title=""><span class="channel-name">ET Now</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/ad9aabbe-bf90-4176-9188-f100e42824e2/France24.gifad9aabbe-bf90-4176-9188-f100e42824e2" alt="" border="" title=""><span class="channel-name">France 24</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/149bdbd7-6bd7-4b0f-b1cf-57655b1bc584/NHK-World.gif149bdbd7-6bd7-4b0f-b1cf-57655b1bc584" alt="" border="" title=""><span class="channel-name">NHK World TV</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/3d102f73-4c7d-4e56-acc0-b94423d90cfd/TV5Monde.gif3d102f73-4c7d-4e56-acc0-b94423d90cfd" alt="" border="" title=""><span class="channel-name">TV5 Monde Asie</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/9579fd26-3292-40e8-867f-6af74698b3ba/dw.gif9579fd26-3292-40e8-867f-6af74698b3ba" alt="" border="" title=""><span class="channel-name">DW</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/69c7da2e-beea-4ee2-bff6-0e8b8b073bef/australiaplus.gif69c7da2e-beea-4ee2-bff6-0e8b8b073bef" alt="" border="" title=""><span class="channel-name">Australia Plus</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/f069eec7-7331-404d-b202-c27c10dabbe2/RussiaToday.giff069eec7-7331-404d-b202-c27c10dabbe2" alt="" border="" title=""><span class="channel-name">Russia Today</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/6aee7252-d067-425e-aa2b-a709a087801b/cnn-news18.gif6aee7252-d067-425e-aa2b-a709a087801b" alt="" border="" title=""><span class="channel-name">CNN-News 18</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/1223bd4c-6b9f-4103-8f35-7242ec109986/cnn-new.jpg1223bd4c-6b9f-4103-8f35-7242ec109986" alt="" border="" title=""><span class="channel-name">CNN</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/be88f7ad-b8ae-4eab-b2a4-7bf55084f1e3/BTVi.gifbe88f7ad-b8ae-4eab-b2a4-7bf55084f1e3" alt="" border="" title=""><span class="channel-name">BTVi</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/68807364-f781-4b4c-ac18-8f65acdc08bd/bbc.gif68807364-f781-4b4c-ac18-8f65acdc08bd" alt="" border="" title=""><span class="channel-name">BBC World</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/1558bdad-a09f-446d-84fd-1bb7b85c83c4/al-jazeera.gif1558bdad-a09f-446d-84fd-1bb7b85c83c4" alt="" border="" title=""><span class="channel-name">Al Jazeera</span></span></p>
+
+<h6>
+Others
+</h6>
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/ca582631-6cdb-475c-a5a3-51453620a289/Jonack-TV.gifca582631-6cdb-475c-a5a3-51453620a289" alt="" border="" title=""><span class="channel-name">Jonack TV</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/5ec675a1-9ead-4bab-af1c-e6ce48eeefd1/News18-Assam-North-East.gif5ec675a1-9ead-4bab-af1c-e6ce48eeefd1" alt="" border="" title=""><span class="channel-name">News18 Assam North East</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/7d9c77ad-3921-4915-9e2d-5483d595fddd/Soham.gif7d9c77ad-3921-4915-9e2d-5483d595fddd" alt="" border="" title=""><span class="channel-name">Soham</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/531f2f25-e0f2-4b79-b508-4ded11178a0f/SarvDharamSangam.jpg531f2f25-e0f2-4b79-b508-4ded11178a0f" alt="" border="" title=""><span class="channel-name">Sarv Dharam Sangam</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/1eb030d2-cc41-4335-92f6-512f5e8a5843/Satsang.gif1eb030d2-cc41-4335-92f6-512f5e8a5843" alt="" border="" title=""><span class="channel-name">Satsang</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/c03e52db-713e-4329-9415-b7f626bfdd6a/Best-Deal-TV.gifc03e52db-713e-4329-9415-b7f626bfdd6a" alt="" border="" title=""><span class="channel-name">Best DEAL TV</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/f5fd3b44-c2c1-4c51-a203-1ef7c39cda4d/munsif1.giff5fd3b44-c2c1-4c51-a203-1ef7c39cda4d" alt="" border="" title=""><span class="channel-name">Munsif</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/7a89eeca-6a88-446b-bca4-78b85ded16fd/HBN.gif7a89eeca-6a88-446b-bca4-78b85ded16fd" alt="" border="" title=""><span class="channel-name">HBN</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/ca090d5c-0fc9-4139-921b-a47a4552ff9d/naaptol-BLUE.gifca090d5c-0fc9-4139-921b-a47a4552ff9d" alt="" border="" title=""><span class="channel-name">Naaptol BLUE</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/682fd717-31cd-4d73-a7e3-b5216fc26bbc/Gemporia.gif682fd717-31cd-4d73-a7e3-b5216fc26bbc" alt="" border="" title=""><span class="channel-name">Gemporia</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/c42b796b-3e60-4b06-b7ef-84fa9568a674/Ishwar.gifc42b796b-3e60-4b06-b7ef-84fa9568a674" alt="" border="" title=""><span class="channel-name">Ishwar TV</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/4f7b2845-fee2-45df-b050-be2701553c5e/Arihant.gif4f7b2845-fee2-45df-b050-be2701553c5e" alt="" border="" title=""><span class="channel-name">Arihant</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/ea674404-7e9d-4543-afd9-f7ac2d14f3ab/Jinvani.gifea674404-7e9d-4543-afd9-f7ac2d14f3ab" alt="" border="" title=""><span class="channel-name">Jinvani</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/817e3708-75be-4c45-b5c3-160d19bbd3e0/Indradhanu-Rengoni.gif817e3708-75be-4c45-b5c3-160d19bbd3e0" alt="" border="" title=""><span class="channel-name">Indradhanu Rengoni</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/1c5fa130-eba4-4fd8-9ed1-8186aa43b5da/Assam-Talks.gif1c5fa130-eba4-4fd8-9ed1-8186aa43b5da" alt="" border="" title=""><span class="channel-name">Assam Talks</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/092014a2-9f7f-4bb5-b1bb-c9de77d15066/PragNews.gif092014a2-9f7f-4bb5-b1bb-c9de77d15066" alt="" border="" title=""><span class="channel-name">Prag</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/e2e915ab-46c8-4057-b44b-1ca24c60ac37/pratidin-time.gife2e915ab-46c8-4057-b44b-1ca24c60ac37" alt="" border="" title=""><span class="channel-name">Pratidin Time</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/590cb47c-8134-4f71-9ad8-ab5faefd7a40/Peaceofmind.gif590cb47c-8134-4f71-9ad8-ab5faefd7a40" alt="" border="" title=""><span class="channel-name">Peace of Mind</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/893bec09-1662-49ed-b6b8-81aeadee6720/adhyatham.jpg893bec09-1662-49ed-b6b8-81aeadee6720" alt="" border="" title=""><span class="channel-name">Adhyatm TV</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/e512c5ce-d4c4-4943-9105-e317ea41151a/aastha.gife512c5ce-d4c4-4943-9105-e317ea41151a" alt="" border="" title=""><span class="channel-name">Aastha</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/2700faf2-47cb-4cd5-abfc-64c7b10635c4/disha.gif2700faf2-47cb-4cd5-abfc-64c7b10635c4" alt="" border="" title=""><span class="channel-name">Disha</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/5ff221db-25da-4301-b32f-dc64567666dc/dy365.gif5ff221db-25da-4301-b32f-dc64567666dc" alt="" border="" title=""><span class="channel-name">DY 365</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/36cec15a-fe32-4ac2-a598-89084b93491e/shradha-mh-one.gif36cec15a-fe32-4ac2-a598-89084b93491e" alt="" border="" title=""><span class="channel-name">MH One Shraddha</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/36abbb62-952a-4947-91a7-0d9ef5c94a9b/paras.gif36abbb62-952a-4947-91a7-0d9ef5c94a9b" alt="" border="" title=""><span class="channel-name">Paras</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/2b7a04d2-b543-496c-ae90-19c542ab7dfc/sadhana.gif2b7a04d2-b543-496c-ae90-19c542ab7dfc" alt="" border="" title=""><span class="channel-name">Sadhna</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/4568f3e4-7182-40e8-9e17-671debb1ed8d/sanskar.gif4568f3e4-7182-40e8-9e17-671debb1ed8d" alt="" border="" title=""><span class="channel-name">Sanskar TV</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/f7ee05b3-2c21-4d43-9cfb-b2c1c2d22909/ShopCJ.giff7ee05b3-2c21-4d43-9cfb-b2c1c2d22909" alt="" border="" title=""><span class="channel-name">SHOP CJ</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/18e7879a-f7be-4bc3-b595-9bfdbc60cf56/zee-salaam.gif18e7879a-f7be-4bc3-b595-9bfdbc60cf56" alt="" border="" title=""><span class="channel-name">Zee Salaam</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/af8b95b9-b783-4d5c-8c43-3e01cec88d3f/shalom-tv.gifaf8b95b9-b783-4d5c-8c43-3e01cec88d3f" alt="" border="" title=""><span class="channel-name">Shalom TV</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/d7d21b9d-e68b-4bb8-83cd-6016e0445c6c/ramdhenu.gifd7d21b9d-e68b-4bb8-83cd-6016e0445c6c" alt="" border="" title=""><span class="channel-name">Ramdhenu TV</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/8fe37206-0cac-46ef-8789-554243e5b8fe/homeshop18.gif8fe37206-0cac-46ef-8789-554243e5b8fe" alt="" border="" title=""><span class="channel-name">Home Shop TV18</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/255557c5-a94d-4c8c-a17f-27a55542dfa7/Channel-Win.gif255557c5-a94d-4c8c-a17f-27a55542dfa7" alt="" border="" title=""><span class="channel-name">Channel WIN</span></span></p>
+
+<h6>
+Doordarshan
+</h6>
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/41087cc0-efef-4a9f-9c53-cfdfd3b05f88/DD_Yadagiri.gif41087cc0-efef-4a9f-9c53-cfdfd3b05f88" alt="" border="" title=""><span class="channel-name">DD Yadagiri</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/89f2eb02-338f-4962-b700-c02f3a7ef58a/dd-mp.gif89f2eb02-338f-4962-b700-c02f3a7ef58a" alt="" border="" title=""><span class="channel-name">DD Madhya Pradesh</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/e913cedc-28ad-44d0-997d-35211b4f7043/dd-Rajasthan.gife913cedc-28ad-44d0-997d-35211b4f7043" alt="" border="" title=""><span class="channel-name">DD Rajasthan</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/314988a5-a8e9-457e-bedc-9f8fe0b24369/dd-up.gif314988a5-a8e9-457e-bedc-9f8fe0b24369" alt="" border="" title=""><span class="channel-name">DD Uttar Pradesh</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/d7af0e52-33ae-4b93-9aa1-555a49caba9e/DD_Bihar.gifd7af0e52-33ae-4b93-9aa1-555a49caba9e" alt="" border="" title=""><span class="channel-name">DD Bihar</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/c08afce3-f87f-4a91-85fe-1bd3b3dd4261/dd-saptagiri.gifc08afce3-f87f-4a91-85fe-1bd3b3dd4261" alt="" border="" title=""><span class="channel-name">DD Saptagiri</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/3d750d7e-358a-4fea-819f-a9a61f25da04/DD-India.gif3d750d7e-358a-4fea-819f-a9a61f25da04" alt="" border="" title=""><span class="channel-name">DD India</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/c3186789-5128-46b3-a8f4-d7c75e2b1a7e/DD_Girnar.gifc3186789-5128-46b3-a8f4-d7c75e2b1a7e" alt="" border="" title=""><span class="channel-name">DD Girnar</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/d3e6879e-bdc6-4b10-94a2-373107585fa6/dd-bangla.gifd3e6879e-bdc6-4b10-94a2-373107585fa6" alt="" border="" title=""><span class="channel-name">DD Bangla</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/421eeb88-d742-4738-ae4a-c9da1602a83c/dd-bharti.gif421eeb88-d742-4738-ae4a-c9da1602a83c" alt="" border="" title=""><span class="channel-name">DD Bharti</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/3dbc8442-f3ac-4daf-b7d2-733d4ac72784/dd-candana.gif3dbc8442-f3ac-4daf-b7d2-733d4ac72784" alt="" border="" title=""><span class="channel-name">DD Chandana</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/69c8f1db-7a04-4cf1-8ed8-655b0ee44fe9/dd-kashir.gif69c8f1db-7a04-4cf1-8ed8-655b0ee44fe9" alt="" border="" title=""><span class="channel-name">DD Kashir</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/c9f27974-40f3-4fc0-934f-419c2d900a04/dd-national.gifc9f27974-40f3-4fc0-934f-419c2d900a04" alt="" border="" title=""><span class="channel-name">DD National</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/d7632e8c-a97a-4378-a8c2-0a7dbf569865/dd-ne.jpgd7632e8c-a97a-4378-a8c2-0a7dbf569865" alt="" border="" title=""><span class="channel-name">DD NE</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/920f2fec-2e7b-44c0-8bc9-cb68c981b842/dd-news.gif920f2fec-2e7b-44c0-8bc9-cb68c981b842" alt="" border="" title=""><span class="channel-name">DD News</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/ad7f506c-062f-4f28-9f2e-44b74f86bed2/DD_Kisan.gifad7f506c-062f-4f28-9f2e-44b74f86bed2" alt="" border="" title=""><span class="channel-name">DD Kisan</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/8763f1c1-6716-4316-b628-034480454c5e/dd-odia.jpg8763f1c1-6716-4316-b628-034480454c5e" alt="" border="" title=""><span class="channel-name">DD Odia</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/519cb05c-3c93-4900-83ec-f9cb779fdc5e/dd-podhigai.gif519cb05c-3c93-4900-83ec-f9cb779fdc5e" alt="" border="" title=""><span class="channel-name">DD Podhigai</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/c3d50b33-3304-47eb-b390-816d201ff8e8/dd-panjabi.gifc3d50b33-3304-47eb-b390-816d201ff8e8" alt="" border="" title=""><span class="channel-name">DD Punjabi</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/5ef047f8-468d-4120-bf4b-a5195033a6e8/dd-sayadri.gif5ef047f8-468d-4120-bf4b-a5195033a6e8" alt="" border="" title=""><span class="channel-name">DD Sahyadri</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/199f0315-6876-45c8-838e-55e9e3820fdd/dd-sports.gif199f0315-6876-45c8-838e-55e9e3820fdd" alt="" border="" title=""><span class="channel-name">DD Sports</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/8900a181-7e81-4d06-bd2f-df1214544491/dd-urdu.gif8900a181-7e81-4d06-bd2f-df1214544491" alt="" border="" title=""><span class="channel-name">DD Urdu</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/5c93286f-5ace-4fa5-b646-3ed4fc1a05d1/dd-loksabha.gif5c93286f-5ace-4fa5-b646-3ed4fc1a05d1" alt="" border="" title=""><span class="channel-name">Lok Sabha TV</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/abedc79f-027e-4976-8f8c-dac7d86907c3/dd-rajyasabha.gifabedc79f-027e-4976-8f8c-dac7d86907c3" alt="" border="" title=""><span class="channel-name">Rajya Sabha</span></span></p>
+
+
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/990d1ffc-9d72-4f37-bc1d-c89cb8029a5f/dd-malayalam.gif990d1ffc-9d72-4f37-bc1d-c89cb8029a5f" alt="" border="" title=""><span class="channel-name">DD Malayalam</span></span></p>
+
+<h6>
+Actve Services
+</h6>
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/af601176-2935-4f83-a7b8-15a27d5b20f8/actve-darshan.gifaf601176-2935-4f83-a7b8-15a27d5b20f8" alt="" border="" title=""><span class="channel-name">Actve Darshan</span></span></p>
+
+<h6>
+Tata Sky 4K
+</h6>
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/052a7789-789f-4550-a44b-cf4f3e0a3dfe/4k.gif052a7789-789f-4550-a44b-cf4f3e0a3dfe" alt="" border="" title=""><span class="channel-name">Tata Sky 4K service#</span></span></p>
+
+<h6>
+Bengali/Odia
+</h6>
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/10917ebb-2412-426d-b248-189221b5ecd6/Naaptol-BANGLA.gif10917ebb-2412-426d-b248-189221b5ecd6" alt="" border="" title=""><span class="channel-name">Naaptol Bangla</span></span></p>
+
+<h6>
+Marathi
+</h6>
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/44bf222e-78b7-4068-a216-4fb74c36822a/Naaptol-MARATHI.gif44bf222e-78b7-4068-a216-4fb74c36822a" alt="" border="" title=""><span class="channel-name">Naaptol Marathi</span></span></p>
+
+<h6>
+Kannada
+</h6>
+
+<p class="channel "><span class="boxBrdr"><img src="slide1/ae59fccf-2725-4daa-a2e4-78742ea38fb8/Naaptol-KANNADA.gifae59fccf-2725-4daa-a2e4-78742ea38fb8" alt="" border="" title=""><span class="channel-name">Naaptol Kannada</span></span></p>
+
+<div class="CL"><ul dir="ltr">
+	<li>
+		<strong>Disclaimer</strong></li>
+	<li>
+		Inclusive of service tax and any other applicable taxes.</li>
+	<li>
+		*Includes interactive services and free regional packs (as applicable). Please note there is no free regional pack or interactive services available with My 99 pack.</li>
+	<li>
+		<sup>#</sup>This service is only available for subscribers with a Tata Sky UHD 4K box/connection. Temporarily suspended.</li>
+	<li>
+		For the purpose of calculation of service charges, 1 month is considered as 30 days, semi-annual is considered as 182 days and annual is considered as 365 days</li>
+</ul>
+
+<br>
+South Special and South Sports Special packs are available only in following places - Puducherry, Andhra Pradesh, Telangana, Karnataka, Kerala &amp; Tamil Nadu.
+</div>
+</div>
+        </div>
+            <!-- Placed at the end of the document so the pages load faster -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+            </script>
+            <script src="js/bootstrap.min.js">
+            </script>
+            <script src="js/vld.js">
+            </script>
+            <script>
+        $(document).ready(function () {
+
+            $(".edit").click(function () {
+                var value = $(this).attr("idd");
+                $("#package").val(value);
+                if ($(this).attr("serial") == "1") {
+                    $("#iframe").attr("src", "slide1.html");
+                    $("#1").html("<a href='https://www.payumoney.com/paybypayumoney/#/183381'><img src='images/buy.png' style='width: 93%;' /></a>");
+                }
+                if ($(this).attr("serial") == "2") {
+                    $("#iframe").attr("src", "slide2.html");
+                    $("#1").html("<a href='https://www.payumoney.com/paybypayumoney/#/185919'><img src='images/buy.png' style='width: 93%;' /></a>");
+                }
+                if ($(this).attr("serial") == "3") {
+                    $("#iframe").attr("src", "slide3.html");
+                    $("#1").html("<a href='https://www.payumoney.com/paybypayumoney/#/188589'><img src='images/buy.png' style='width: 93%;' /></a>");
+                }
+                if ($(this).attr("serial") == "4") {
+                    $("#iframe").attr("src", "slide4.html");
+                    $("#1").html("<a href='https://www.payumoney.com/paybypayumoney/#/188623'><img src='images/buy.png' style='width: 93%;' /></a>");
+                }
+                if ($(this).attr("serial") == "5") {
+                    $("#iframe").attr("src", "slide5.html");
+                    $("#1").html("<a href='https://www.payumoney.com/paybypayumoney/#/188621'><img src='images/buy.png' style='width: 93%;' /></a>");
+                }
+            });
+
+        });
+
+            </script>
+            <script>
+        //Smooth scrolling script:
+        $(function () {
+            $('.navbar-nav li > a, .cpyrt li a').click(function () {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html,body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+        });
+
+        //tender
+        $(document).ready(function () {
+
+            if ($(window).width() > 992) {
+                // Large menu
+
+                $(function () {
+                    var offset = $("#sidebar").offset();
+                    var topPadding = 50;
+                    $(window).scroll(function () {
+                        if ($(window).scrollTop() > offset.top) {
+                            $("#sidebar").stop().animate({
+                                marginTop: $(window).scrollTop() - offset.top + topPadding
+                            });
+                        } else {
+                            $("#sidebar").stop().animate({
+                                marginTop: 0
+                            });
+                        };
+                    });
+                });
+
+            } else {
+                // Small menu
+            }
+        });
+            </script>
+            <!-- light box -->
+            <script src="js/lightbox.js">
+            </script>
+            <script>
+        $(document).ready(function () {
+            $(".group1").colorbox({ rel: 'group1' });
+            if (navigator.userAgent.match(/Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile/i)) {
+                $("#call_me").attr("href", "tel:");
+            }
+        });
+            </script>
+
+
+            </body>
+</html>
